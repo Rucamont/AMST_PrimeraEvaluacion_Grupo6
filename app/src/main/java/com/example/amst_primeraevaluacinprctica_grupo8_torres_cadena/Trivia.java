@@ -137,7 +137,8 @@ public class Trivia extends AppCompatActivity {
             else {
                 finish();
                 Intent intent = new Intent(this, Lost_play.class);
-                intent.putExtra("count",numberTrivia.size());
+                numberTrivia.put("total",String.valueOf(numberTrivia.size()-1));
+                intent.putExtra("count",numberTrivia);
 
                 startActivity(intent);
                 nextTrivia = Boolean.FALSE;
@@ -153,7 +154,8 @@ public class Trivia extends AppCompatActivity {
             } else {
                 finish();
                 Intent intent = new Intent(this, Lost_play.class);
-                intent.putExtra("count",numberTrivia.size());
+                numberTrivia.put("total",String.valueOf(numberTrivia.size()-1));
+                intent.putExtra("count",numberTrivia);
 
                 startActivity(intent);
                 nextTrivia = Boolean.FALSE;
@@ -169,7 +171,8 @@ public class Trivia extends AppCompatActivity {
             } else {
                 finish();
                 Intent intent = new Intent(this, Lost_play.class);
-                intent.putExtra("count",numberTrivia.size());
+                numberTrivia.put("total",String.valueOf(numberTrivia.size()-1));
+                intent.putExtra("count",numberTrivia);
                 startActivity(intent);
                 nextTrivia = Boolean.FALSE;
 
@@ -185,7 +188,8 @@ public class Trivia extends AppCompatActivity {
             } else {
                 finish();
                 Intent intent = new Intent(this, Lost_play.class);
-                intent.putExtra("count",numberTrivia.size());
+                numberTrivia.put("total",String.valueOf(numberTrivia.size()-1));
+                intent.putExtra("count",numberTrivia);
                 startActivity(intent);
                 nextTrivia = Boolean.FALSE;
 
@@ -201,7 +205,8 @@ public class Trivia extends AppCompatActivity {
             } else {
                 finish();
                 Intent intent = new Intent(this, Lost_play.class);
-                intent.putExtra("count",numberTrivia.size());
+                numberTrivia.put("total",String.valueOf(numberTrivia.size()-1));
+                intent.putExtra("count",numberTrivia);
                 startActivity(intent);
                 nextTrivia = Boolean.FALSE;
 

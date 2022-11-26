@@ -11,15 +11,14 @@ import android.widget.TextView;
 import java.util.HashMap;
 
 public class Enhorabuena extends AppCompatActivity {
- TextView txtCount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enhorabuena);
-//        Intent intent = getIntent();
-//        HashMap<String, String> cantidad = (HashMap<String, String>) intent.getSerializableExtra("count");
-        txtCount =findViewById(R.id.textView6);
-        txtCount.setTextColor(Color.BLUE);
-    }
 
+    }
+    public void close(View view){
+        finish();
+
+    }
 }
